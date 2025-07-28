@@ -19,8 +19,6 @@ export interface ForumPost {
   title: string;
   content: string;
   user_id?: string;
-  author?: string;
-  category?: string;
   created_at?: string;
   comments_count?: number;
   reactions_count?: number;
@@ -41,7 +39,6 @@ export interface Comment {
 
 export interface StreakSummary {
   current_streak: number;
-  longest_streak: number;
   is_paused: boolean;
   last_completion_date?: string;
   days_since_last_completion?: number;

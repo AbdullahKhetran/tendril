@@ -120,8 +120,6 @@ class ForumPost(BaseModel):
     title: str
     content: str
     user_id: Optional[str] = None
-    author: Optional[str] = None
-    category: Optional[str] = None
     created_at: Optional[datetime] = None
     comments_count: Optional[int] = 0
     reactions_count: Optional[int] = 0
@@ -140,7 +138,6 @@ class Comment(BaseModel):
 
 class StreakSummary(BaseModel):
     current_streak: int
-    longest_streak: int
     is_paused: bool
     last_completion_date: Optional[str] = None
     days_since_last_completion: Optional[int] = None

@@ -1,7 +1,6 @@
 import json
 from datetime import datetime, date
 from typing import Dict, List, Any
-from .dummy_data import DUMMY_TASKS, DUMMY_POSTS, DUMMY_STREAK, DUMMY_TIPS
 
 class DataManager:
     def __init__(self):
@@ -23,19 +22,19 @@ class DataManager:
         import os
         
         if not os.path.exists(self.tasks_file):
-            self._save_tasks(DUMMY_TASKS)
+            self._save_tasks([])
         
         if not os.path.exists(self.posts_file):
-            self._save_posts(DUMMY_POSTS)
+            self._save_posts([])
         
         if not os.path.exists(self.comments_file):
             self._save_comments([])
         
         if not os.path.exists(self.streak_file):
-            self._save_streak(DUMMY_STREAK)
+            self._save_streak({})
         
         if not os.path.exists(self.tips_file):
-            self._save_tips(DUMMY_TIPS)
+            self._save_tips([])
     
     def _serialize_datetime(self, obj):
         """Custom JSON serializer for datetime objects"""
@@ -120,7 +119,7 @@ class DataManager:
                 data = json.load(f)
                 return [self._deserialize_datetime(post) for post in data]
         except FileNotFoundError:
-            return DUMMY_POSTS
+            return []
     
     def load_comments(self) -> List[Dict[str, Any]]:
         """Load comments from JSON file"""
@@ -147,7 +146,7 @@ class DataManager:
                 data = json.load(f)
                 return [self._deserialize_datetime(tip) for tip in data]
         except FileNotFoundError:
-            return DUMMY_TIPS
+            return []
     
     def save_task(self, task_data: Dict[str, Any]):
         """Save a single task to the database (user-specific)"""

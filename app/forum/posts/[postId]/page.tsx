@@ -142,11 +142,6 @@ export default function PostPage() {
             <div className="flex items-center justify-between text-sm text-gray-600">
               <div className="flex items-center gap-4">
                 <span>{post.created_at ? formatDate(post.created_at) : 'Just posted'}</span>
-                {post.category && (
-                  <span className="bg-[#795663] text-white px-2 py-1 rounded text-xs">
-                    {post.category}
-                  </span>
-                )}
               </div>
             </div>
           </div>

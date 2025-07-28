@@ -72,11 +72,6 @@ class StreakManager:
         else:
             # Streak is paused (not reset to 0)
             streak_data['is_paused'] = True
-        
-        # Update longest streak if current streak is longer
-        longest_streak = streak_data.get('longest_streak', 0)
-        if current_streak > longest_streak:
-            streak_data['longest_streak'] = current_streak
     
     def _calculate_consecutive_days(self, completion_dates: List[str], end_date: date) -> int:
         """
@@ -126,7 +121,6 @@ class StreakManager:
         
         return {
             'current_streak': streak_data.get('current_streak', 0),
-            'longest_streak': streak_data.get('longest_streak', 0),
             'is_paused': streak_data.get('is_paused', False),
             'last_completion_date': last_completion_date.isoformat() if last_completion_date else None,
             'days_since_last_completion': days_since_last,
