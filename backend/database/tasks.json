@@ -1,16 +1,5 @@
 [
   {
-    "id": "4af482bd-5809-4d1a-8f4a-385768d7f21a",
-    "title": "Drink 8 Glasses of Water",
-    "description": "Stay hydrated throughout the day",
-    "completed": true,
-    "due_date": "2025-07-27",
-    "completion_history": {
-      "2025-07-27": true
-    },
-    "user_id": "user_249ks2lp2"
-  },
-  {
     "id": "690cc052-be38-4562-a987-f152a47e0af1",
     "title": "30-Minute Walk",
     "description": "Take a brisk walk in the park or around the neighborhood",
@@ -25,17 +14,6 @@
     "description": "Read a chapter from your current book",
     "completed": true,
     "due_date": "2025-07-29",
-    "completion_history": {
-      "2025-07-27": true
-    },
-    "user_id": "user_249ks2lp2"
-  },
-  {
-    "id": "417940c9-56a6-4a99-b74d-dffcdaa5fc86",
-    "title": "Call Family Member",
-    "description": "Check in with a family member or close friend",
-    "completed": true,
-    "due_date": "2025-07-30",
     "completion_history": {
       "2025-07-27": true
     },
@@ -66,17 +44,6 @@
     "description": null,
     "completed": true,
     "due_date": "2025-07-28",
-    "completion_history": {
-      "2025-07-27": true
-    },
-    "user_id": "user_249ks2lp2"
-  },
-  {
-    "id": "5da09f94-526f-4bb3-a8ad-9d0bf1db364a",
-    "title": "Brush Teeth",
-    "description": null,
-    "completed": true,
-    "due_date": "2025-07-30",
     "completion_history": {
       "2025-07-27": true
     },
