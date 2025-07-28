@@ -149,11 +149,7 @@ class StreakSummary(BaseModel):
 class Tip(BaseModel):
     id: Optional[str] = None
     content: str
-    author: str
-    category: str
-    likes: int = 0
     created_at: Optional[datetime] = None
-    is_featured: bool = False
 
 class PostAnalysisRequest(BaseModel):
     content: str
@@ -357,13 +353,6 @@ async def complete_task_for_streak(completion_date: date, user_id: str):
 async def get_tips():
     """Get all tips"""
     return list(data_manager.load_tips())
-
-@app.get("/api/tips/featured", response_model=List[Tip])
-async def get_featured_tips():
-    """Get featured tips"""
-    tips = data_manager.load_tips()
-    featured_tips = [tip for tip in tips if tip.is_featured]
-    return featured_tips
 
 @app.get("/api/tips/random", response_model=Tip)
 async def get_random_tip():

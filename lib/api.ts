@@ -51,11 +51,7 @@ export interface StreakSummary {
 export interface Tip {
   id?: string;
   content: string;
-  author: string;
-  category: string;
-  likes: number;
   created_at?: string;
-  is_featured: boolean;
 }
 
 // Calendar response type
@@ -248,10 +244,6 @@ class ApiClient {
     return this.request<Tip[]>('/api/tips');
   }
 
-  async getFeaturedTips(): Promise<Tip[]> {
-    return this.request<Tip[]>('/api/tips/featured');
-  }
-
   async getRandomTip(): Promise<Tip> {
     return this.request<Tip>('/api/tips/random');
   }
@@ -305,7 +297,6 @@ export const api = {
   
   // Tips
   getTips: () => apiClient.getTips(),
-  getFeaturedTips: () => apiClient.getFeaturedTips(),
   getRandomTip: () => apiClient.getRandomTip(),
   createTip: (tip: Omit<Tip, 'id' | 'created_at'>) => apiClient.createTip(tip),
 }; 

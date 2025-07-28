@@ -15,38 +15,22 @@ DUMMY_TIPS = [
     {
         "id": str(uuid.uuid4()),
         "content": "Drink a glass of water first thing in the morning to kickstart your metabolism and rehydrate after sleep. Add lemon for extra benefits!",
-        "author": "Dr. Sarah Wellness",
-        "category": "Hydration",
-        "likes": 42,
-        "created_at": datetime.now() - timedelta(days=1),
-        "is_featured": True
+        "created_at": datetime.now() - timedelta(days=1)
     },
     {
         "id": str(uuid.uuid4()),
         "content": "Before getting out of bed, try these gentle stretches: cat-cow pose, gentle twists, and ankle rotations. It helps wake up your body naturally.",
-        "author": "Yoga Master Mike",
-        "category": "Exercise",
-        "likes": 38,
-        "created_at": datetime.now() - timedelta(days=2),
-        "is_featured": True
+        "created_at": datetime.now() - timedelta(days=2)
     },
     {
         "id": str(uuid.uuid4()),
         "content": "Take time to chew your food slowly and savor each bite. This not only improves digestion but also helps you feel more satisfied with smaller portions.",
-        "author": "Nutrition Expert Lisa",
-        "category": "Nutrition",
-        "likes": 35,
-        "created_at": datetime.now() - timedelta(days=3),
-        "is_featured": False
+        "created_at": datetime.now() - timedelta(days=3)
     },
     {
         "id": str(uuid.uuid4()),
         "content": "Avoid screens 30 minutes before bedtime. The blue light can interfere with your sleep cycle. Try reading a book instead!",
-        "author": "Sleep Coach David",
-        "category": "Sleep",
-        "likes": 29,
-        "created_at": datetime.now() - timedelta(days=4),
-        "is_featured": False
+        "created_at": datetime.now() - timedelta(days=4)
     },
     {
         "id": str(uuid.uuid4()),

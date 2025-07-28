@@ -193,10 +193,6 @@ export default function Forum() {
       // Call backend to get AI suggestion (always runs Groq now)
       const response = await api.createTip({
         content: newTipContent,
-        author: "Community Member",
-        category: "Wellness",
-        likes: 0,
-        is_featured: false,
       });
       setTipAnalyzingContent(false);
       // If content was rewritten, show suggestion

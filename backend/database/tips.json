@@ -1,171 +1,102 @@
 [
   {
     "id": "eb05bd92-791c-45d6-acec-14566ac784b4",
-    "title": "Start Your Day with Hydration",
     "content": "Drink a glass of water first thing in the morning to kickstart your metabolism and rehydrate after sleep. Add lemon for extra benefits!",
-    "author": "Dr. Sarah Wellness",
-    "category": "Hydration",
-    "likes": 42,
-    "created_at": "2025-07-26T02:54:32.444682",
-    "is_featured": true
+    "created_at": "2025-07-26T02:54:32.444682"
   },
   {
     "id": "95434497-4568-43dc-b60a-5a654d1194bf",
-    "title": "5-Minute Morning Stretch Routine",
     "content": "Before getting out of bed, try these gentle stretches: cat-cow pose, gentle twists, and ankle rotations. It helps wake up your body naturally.",
-    "author": "Yoga Master Mike",
-    "category": "Exercise",
-    "likes": 38,
-    "created_at": "2025-07-25T02:54:32.444833",
-    "is_featured": true
+    "created_at": "2025-07-25T02:54:32.444833"
   },
   {
     "id": "3d0a46b2-c8eb-4a06-885f-8f3038878035",
-    "title": "Mindful Eating Habits",
     "content": "Take time to chew your food slowly and savor each bite. This not only improves digestion but also helps you feel more satisfied with smaller portions.",
-    "author": "Nutrition Expert Lisa",
-    "category": "Nutrition",
-    "likes": 35,
-    "created_at": "2025-07-24T02:54:32.444862",
-    "is_featured": false
+    "created_at": "2025-07-24T02:54:32.444862"
   },
   {
     "id": "07a25fff-0fc5-4cbd-84a3-366fc2c90dd6",
-    "title": "Digital Detox Before Bed",
     "content": "Avoid screens 30 minutes before bedtime. The blue light can interfere with your sleep cycle. Try reading a book instead!",
-    "author": "Sleep Coach David",
-    "category": "Sleep",
-    "likes": 29,
-    "created_at": "2025-07-23T02:54:32.444876",
-    "is_featured": false
+    "created_at": "2025-07-23T02:54:32.444876"
   },
   {
     "id": "c885136c-0680-4a8f-840e-eaa8c7eb5ff2",
-    "title": "Gratitude Journal Practice",
     "content": "Write down 3 things you're grateful for each day. This simple practice can significantly improve your mental well-being and outlook on life.",
-    "author": "Mental Health Advocate Emma",
-    "category": "Mental Health",
-    "likes": 31,
-    "created_at": "2025-07-22T02:54:32.444890",
-    "is_featured": true
+    "created_at": "2025-07-22T02:54:32.444890"
   },
   {
     "id": "a376ab9a-b16b-4494-b5b5-95caf9abe8a5",
-    "title": "Walking Meetings",
     "content": "Walking Meetings - Instead of sitting in a conference room, try walking meetings. You'll get exercise, fresh air, and often more creative ideas flow when moving.",
-    "author": "Productivity Guru Alex",
-    "category": "Work-Life Balance",
-    "likes": 27,
-    "created_at": "2025-07-21T02:54:32.444901",
-    "is_featured": false
+    "created_at": "2025-07-21T02:54:32.444901"
   },
   {
     "id": "57a66d22-d4d2-4bde-9bab-c12721a53834",
-    "title": "Wake up early",
     "content": "Wake up early - It keeps the mood good for the remaining day",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T03:04:57.187466",
-    "is_featured": false
+    "created_at": "2025-07-27T03:04:57.187466"
   },
   {
     "id": "86e49397-ab44-409d-a46f-32827162d73a",
     "content": "Stay hydrated",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:26:33.228203",
-    "is_featured": false
+    "created_at": "2025-07-27T20:26:33.228203"
   },
   {
     "id": "bbc8dc55-413a-4cce-8b70-491e169fe6b3",
     "content": "Do early morning walk",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:34:32.504350",
-    "is_featured": false
+    "created_at": "2025-07-27T20:34:32.504350"
   },
   {
     "id": "595b6d67-762b-4065-97a7-9bb2a719d774",
     "content": "Avoid screen time before sleeping",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:38:15.246529",
-    "is_featured": false
+    "created_at": "2025-07-27T20:38:15.246529"
   },
   {
     "id": "a17648d3-34ec-49bb-a8f5-64d9e6b421bc",
     "content": "Change your bed sheets frequently",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:39:34.713928",
-    "is_featured": false
+    "created_at": "2025-07-27T20:39:34.713928"
   },
   {
     "id": "0ac43988-cc72-4448-a25e-23e3ec6bdb25",
-    "content": "I know you're struggling to get started, and it's okay to feel overwhelmed. Let's take a deep breath and focus on making small, achievable steps towards our goal. We can do this together.\n\n",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:40:18.170769",
-    "is_featured": false
+    "content": "I know you're struggling to get started, and it's okay to feel overwhelmed. Let's take a deep breath and focus on making small, achievable steps towards our goal. We can do this together.",
+    "created_at": "2025-07-27T20:40:18.170769"
   },
   {
     "id": "c0600976-29cf-41bb-a984-581d5ee47993",
     "content": "Take meal in portions",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:44:24.074371",
-    "is_featured": false
+    "created_at": "2025-07-27T20:44:24.074371"
   },
   {
     "id": "7cefdbbd-f21c-45a7-ab31-7641c35371da",
     "content": "Wake up early",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:46:12.544307",
-    "is_featured": false
+    "created_at": "2025-07-27T20:46:12.544307"
   },
   {
     "id": "b28eab36-1cd6-4e5e-9fb1-cb0b401a034a",
     "content": "Start jogging",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:47:10.609092",
-    "is_featured": false
+    "created_at": "2025-07-27T20:47:10.609092"
   },
   {
     "id": "dc0378e3-60ac-4ab6-9f09-70ea86fa46f4",
     "content": "Take some sunshine",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T20:49:07.770594",
-    "is_featured": false
+    "created_at": "2025-07-27T20:49:07.770594"
   },
   {
     "id": "61fe0ebd-f415-4759-b749-461bf5778890",
-    "content": "struggling with body image and energy levels\n\n",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T21:24:12.121694",
-    "is_featured": false
+    "content": "struggling with body image and energy levels",
+    "created_at": "2025-07-27T21:24:12.121694"
   },
   {
     "id": "12c6ccf2-50e7-4150-8649-a6d8ce83c169",
     "content": "Divide tasks into subtasks",
-    "author": "Community Member",
-    "category": "Wellness",
-    "likes": 0,
-    "created_at": "2025-07-27T21:24:58.745850",
-    "is_featured": false
+    "created_at": "2025-07-27T21:24:58.745850"
+  },
+  {
+    "id": "11a5358a-d4bb-49b0-b258-d895ccaa405e",
+    "content": "Comb hair often",
+    "created_at": "2025-07-29T00:46:12.967837"
+  },
+  {
+    "id": "6cc64ada-ae03-4743-8c25-bbfdd7121c83",
+    "content": "Cut nails at least once a week",
+    "created_at": "2025-07-29T00:50:59.220472"
   }
 ]
