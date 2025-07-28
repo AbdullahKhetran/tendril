@@ -10,6 +10,7 @@ export interface Task {
   completed: boolean;
   due_date?: string;
   completion_history?: Record<string, boolean>;  // New field for tracking completion by date
+  user_id: string;
 }
 
 

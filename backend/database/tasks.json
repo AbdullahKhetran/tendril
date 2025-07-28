@@ -7,7 +7,8 @@
     "due_date": "2025-07-27",
     "completion_history": {
       "2025-07-27": true
-    }
+    },
+    "user_id": "user_249ks2lp2"
   },
   {
     "id": "690cc052-be38-4562-a987-f152a47e0af1",
@@ -15,7 +16,8 @@
     "description": "Take a brisk walk in the park or around the neighborhood",
     "completed": true,
     "due_date": "2025-07-28",
-    "completion_history": {}
+    "completion_history": {},
+    "user_id": "user_249ks2lp2"
   },
   {
     "id": "133b43ba-2d23-48c6-a9f5-0070f1b1403a",
@@ -25,7 +27,8 @@
     "due_date": "2025-07-29",
     "completion_history": {
       "2025-07-27": true
-    }
+    },
+    "user_id": "user_249ks2lp2"
   },
   {
     "id": "417940c9-56a6-4a99-b74d-dffcdaa5fc86",
@@ -35,7 +38,8 @@
     "due_date": "2025-07-30",
     "completion_history": {
       "2025-07-27": true
-    }
+    },
+    "user_id": "user_249ks2lp2"
   },
   {
     "id": "3c045435-0b08-4c07-b1b9-c9262b64093d",
@@ -43,16 +47,7 @@
     "description": "Make a nutritious lunch instead of eating out",
     "completed": true,
     "due_date": "2025-07-27",
-    "category": "Nutrition"
-  },
-  {
-    "id": "9a1b1874-2ba5-4d7d-978e-b44d3ee3f25f",
-    "title": "Brush Teeth",
-    "description": null,
-    "completed": true,
-    "due_date": "2025-07-28",
-    "category": "Health",
-    "completion_history": {}
+    "user_id": "user_249ks2lp2"
   },
   {
     "id": "5a3d3784-814d-4b6d-a36b-54dd941e37ab",
@@ -62,7 +57,8 @@
     "due_date": "2025-07-27",
     "completion_history": {
       "2025-07-27": true
-    }
+    },
+    "user_id": "user_249ks2lp2"
   },
   {
     "id": "4aa6b349-2be5-4863-8648-b0637e20a797",
@@ -72,7 +68,8 @@
     "due_date": "2025-07-28",
     "completion_history": {
       "2025-07-27": true
-    }
+    },
+    "user_id": "user_249ks2lp2"
   },
   {
     "id": "5da09f94-526f-4bb3-a8ad-9d0bf1db364a",
