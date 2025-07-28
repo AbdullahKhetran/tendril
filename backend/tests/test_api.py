@@ -92,8 +92,7 @@ def test_posts_api():
         # Create a post
         post_data = {
             "title": "Test Post",
-            "content": "This is a test forum post content.",
-            "author": "Test User"
+            "content": "This is a test forum post content."
         }
         
         response = requests.post(f"{BASE_URL}/api/posts", json=post_data)

@@ -21,7 +21,6 @@ def test_streak_functionality():
                 self.streak_file = os.path.join(temp_dir, "streak.json")
                 self.streak_data = {
                     "current_streak": 0,
-                    "longest_streak": 0,
                     "last_completion_date": None,
                     "is_paused": False,
                     "completion_dates": []
@@ -84,7 +83,6 @@ def test_streak_functionality():
         print("\nTest 6: Streak summary")
         summary = streak_manager.get_streak_summary()
         assert summary['current_streak'] == 3
-        assert summary['longest_streak'] == 3
         assert summary['is_paused'] == True  # Should be paused since last completion is not today
         assert summary['total_completion_days'] == 3
         print("✓ Streak summary correct")

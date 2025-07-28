@@ -10,7 +10,6 @@ class TestDataManager:
     def __init__(self):
         self.streak_data = {
             "current_streak": 0,
-            "longest_streak": 0,
             "last_completion_date": None,
             "is_paused": False,
             "completion_dates": []
