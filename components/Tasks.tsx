@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { api, Task } from '@/lib/api';
+import { getUserId } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 
 const AFFIRMATION_MESSAGES = [
@@ -97,6 +98,7 @@ export default function Tasks() {
         description: newTaskDescription || undefined,
         completed: false,
         due_date: newTaskDueDate,
+        user_id: getUserId(),
       });
       setTasks([...tasks, newTask]);
       setNewTaskTitle('');
@@ -166,6 +168,7 @@ export default function Tasks() {
         description: editTaskDescription || undefined,
         completed: false,
         due_date: editTaskDueDate,
+        user_id: getUserId(),
       });
       
       setTasks(tasks.map(task => 
